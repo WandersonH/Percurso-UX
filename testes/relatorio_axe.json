@@ -1,0 +1,156 @@
+{
+  "projeto": "Percurso UX",
+  "arquivo": "index.html",
+  "data": "2026-11-12T00:40:47-03:00",
+  "ferramenta": "axe-core 4.14.0",
+  "navegador": "Google Chrome 153.0.8010.12 (headless)",
+  "regras": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa",
+    "best-practice"
+  ],
+  "limitacoes": "Ferramentas automáticas detectam só parte dos problemas de acessibilidade. Itens em 'revisao_manual' são casos que o axe-core não consegue decidir sozinho (por exemplo, contraste de texto sobre fundo composto). Não substitui teste com leitor de tela nem com pessoas com deficiência. Executado com as fontes de reserva do sistema, sem acesso ao Google Fonts.",
+  "total_cenarios": 12,
+  "total_violacoes": 0,
+  "cenarios": [
+    {
+      "cenario": "Página do curso, tudo expandido",
+      "largura_px": 1280,
+      "modo": "padrão",
+      "regras_aprovadas": 50,
+      "violacoes": [],
+      "revisao_manual": [
+        {
+          "regra": "color-contrast",
+          "elementos": 2
+        }
+      ]
+    },
+    {
+      "cenario": "Formulário enviado vazio (estado de erro)",
+      "largura_px": 1280,
+      "modo": "padrão",
+      "regras_aprovadas": 50,
+      "violacoes": [],
+      "revisao_manual": [
+        {
+          "regra": "color-contrast",
+          "elementos": 7
+        }
+      ]
+    },
+    {
+      "cenario": "Documentação, anexos abertos",
+      "largura_px": 1280,
+      "modo": "padrão",
+      "regras_aprovadas": 49,
+      "violacoes": [],
+      "revisao_manual": [
+        {
+          "regra": "color-contrast",
+          "elementos": 29
+        }
+      ]
+    },
+    {
+      "cenario": "Página do curso, tudo expandido",
+      "largura_px": 390,
+      "modo": "padrão",
+      "regras_aprovadas": 50,
+      "violacoes": [],
+      "revisao_manual": [
+        {
+          "regra": "color-contrast",
+          "elementos": 2
+        }
+      ]
+    },
+    {
+      "cenario": "Formulário enviado vazio (estado de erro)",
+      "largura_px": 390,
+      "modo": "padrão",
+      "regras_aprovadas": 50,
+      "violacoes": [],
+      "revisao_manual": [
+        {
+          "regra": "color-contrast",
+          "elementos": 3
+        }
+      ]
+    },
+    {
+      "cenario": "Documentação, anexos abertos",
+      "largura_px": 390,
+      "modo": "padrão",
+      "regras_aprovadas": 50,
+      "violacoes": [],
+      "revisao_manual": [
+        {
+          "regra": "color-contrast",
+          "elementos": 29
+        }
+      ]
+    },
+    {
+      "cenario": "Página do curso, tudo expandido",
+      "largura_px": 1280,
+      "modo": "contraste reforçado",
+      "regras_aprovadas": 50,
+      "violacoes": [],
+      "revisao_manual": []
+    },
+    {
+      "cenario": "Formulário enviado vazio (estado de erro)",
+      "largura_px": 1280,
+      "modo": "contraste reforçado",
+      "regras_aprovadas": 50,
+      "violacoes": [],
+      "revisao_manual": []
+    },
+    {
+      "cenario": "Documentação, anexos abertos",
+      "largura_px": 1280,
+      "modo": "contraste reforçado",
+      "regras_aprovadas": 49,
+      "violacoes": [],
+      "revisao_manual": [
+        {
+          "regra": "color-contrast",
+          "elementos": 29
+        }
+      ]
+    },
+    {
+      "cenario": "Página do curso, tudo expandido",
+      "largura_px": 390,
+      "modo": "contraste reforçado",
+      "regras_aprovadas": 50,
+      "violacoes": [],
+      "revisao_manual": []
+    },
+    {
+      "cenario": "Formulário enviado vazio (estado de erro)",
+      "largura_px": 390,
+      "modo": "contraste reforçado",
+      "regras_aprovadas": 50,
+      "violacoes": [],
+      "revisao_manual": []
+    },
+    {
+      "cenario": "Documentação, anexos abertos",
+      "largura_px": 390,
+      "modo": "contraste reforçado",
+      "regras_aprovadas": 50,
+      "violacoes": [],
+      "revisao_manual": [
+        {
+          "regra": "color-contrast",
+          "elementos": 29
+        }
+      ]
+    }
+  ]
+}
